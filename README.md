@@ -24,10 +24,8 @@ int main() {
     return 0;
 }
 ```
-![avatar](https://github.com/Taylor-Lai/Glimmer-CS--easy---1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-21%20183552.png)
-???
-
-    
+![image](https://github.com/Taylor-Lai/Glimmer-CS--easy---1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-21%20183552.png)
+ 
 ## 基础语法运用
 ```c
 #include <stdio.h>
@@ -49,6 +47,7 @@ int main() {
     return 0;
 }
 ```
+
 ## 课后题
 ```c
 #include <stdio.h>
