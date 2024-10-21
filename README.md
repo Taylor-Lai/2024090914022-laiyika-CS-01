@@ -24,7 +24,51 @@ int main() {
     return 0;
 }
 ```
-
+![avatar](https://github.com/Taylor-Lai/Glimmer-CS--easy---1-/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-21%20183552.png)
+???
 
     
-#### 
+## 基础语法运用
+```c
+#include <stdio.h>
+
+int main() {
+    int code;
+    for(;;)
+    {
+		printf("Show me your code,please.\n");
+        scanf("%d",&code);
+        if(code >= 100000 && code <= 999999)
+        {
+            printf("I am super hacker!\n");
+            break;
+        }
+        else
+        printf("Fake code!\n");
+    }
+    return 0;
+}
+```
+## 课后题
+```c
+#include <stdio.h>
+
+int gcd(int m,int n)
+{
+    while(n!=0)
+    {
+        int a=n;
+        n=m%n;
+        m=a;
+    }
+    return m;
+}
+int main()
+{
+    int m,n;
+    scanf("%d %d",&m,&n);
+    int result =gcd(m,n);
+    printf("%d\n",result);
+    return 0;
+}
+```
